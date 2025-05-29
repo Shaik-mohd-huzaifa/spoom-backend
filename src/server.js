@@ -1,4 +1,5 @@
-const app = require('./app');
+// Using the minimal app version to avoid path-to-regexp errors
+const app = require('./app-minimal');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 5000;

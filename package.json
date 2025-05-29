@@ -20,14 +20,24 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.817.0",
+    "@prisma/client": "^6.8.2",
     "@supabase/supabase-js": "^2.49.8",
     "amazon-cognito-identity-js": "^6.3.15",
     "aws-sdk": "^2.1692.0",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "express-validator": "^7.2.1",
     "jsonwebtoken": "^9.0.2",
-    "jwks-rsa": "^3.2.0"
+    "jwks-rsa": "^3.2.0",
+    "knex": "^3.0.1",
+    "langchain": "^0.0.177",
+    "openai": "^4.17.0",
+    "pg": "^8.16.0",
+    "pg-pool": "^3.6.1",
+    "prisma": "^6.8.2"
   },
   "devDependencies": {
     "eslint": "^8.56.0",

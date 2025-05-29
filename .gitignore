@@ -49,3 +49,5 @@ bower_components
 *.njsproj
 *.sln
 *.sw?
+
+/src/generated/prisma

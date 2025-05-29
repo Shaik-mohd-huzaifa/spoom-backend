@@ -9,7 +9,6 @@ router.post('/signin', authController.signIn);
 
 // Handle registration
 router.post('/signup', authController.signUp);
-router.post('/register', authController.signUp); // Legacy route compatibility
 
 // Handle email verification
 router.post('/confirm-signup', authController.confirmSignUp);
@@ -23,5 +22,8 @@ router.get('/user', auth.authenticateToken, authController.getUserInfo);
 
 // Handle sign-out
 router.post('/signout', auth.authenticateToken, authController.signOut);
+
+// Legacy route compatibility
+router.post('/register', authController.signUp);
 
 module.exports = router;
